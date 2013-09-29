@@ -10,9 +10,15 @@
 
 @interface CalcViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *label;
+@property (weak, nonatomic) IBOutlet UILabel *displayLabel;
+@property (weak, nonatomic) IBOutlet UILabel *operatorLabel;
+@property (weak, nonatomic) NSString *operator;
+@property float operand;
 
+// Clear button
 - (IBAction)clear:(id)sender;
+
+// Digit buttons
 - (IBAction)zero:(id)sender;
 - (IBAction)one:(id)sender;
 - (IBAction)two:(id)sender;
@@ -23,5 +29,12 @@
 - (IBAction)seven:(id)sender;
 - (IBAction)eight:(id)sender;
 - (IBAction)nine:(id)sender;
+
+// Operator buttons
+- (IBAction)add:(id)sender;
+- (IBAction)subtract:(id)sender;
+- (IBAction)multiply:(id)sender;
+- (IBAction)divide:(id)sender;
+- (IBAction)equals:(id)sender;
 
 @end
