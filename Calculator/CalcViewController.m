@@ -90,6 +90,12 @@
     }
 }
 
+- (IBAction)decimal:(id)sender {
+    if ([self.displayLabel.text rangeOfString:@"."].location == NSNotFound) {
+        self.displayLabel.text = [self.displayLabel.text stringByAppendingString:@"."];
+    }
+}
+
 - (IBAction)add:(id)sender {
     self.operatorLabel.text = @"+";
     self.operator = @"+";

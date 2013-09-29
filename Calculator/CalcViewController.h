@@ -29,6 +29,7 @@
 - (IBAction)seven:(id)sender;
 - (IBAction)eight:(id)sender;
 - (IBAction)nine:(id)sender;
+- (IBAction)decimal:(id)sender;
 
 // Operator buttons
 - (IBAction)add:(id)sender;
