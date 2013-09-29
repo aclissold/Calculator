@@ -31,61 +31,61 @@
 }
 
 - (IBAction)zero:(id)sender {
-    if ([self.displayLabel.text length] < 10) {
+    if ([self.displayLabel.text length] < 9) {
         self.displayLabel.text = [self.displayLabel.text stringByAppendingString:@"0"];
     }
 }
 
 - (IBAction)one:(id)sender {
-    if ([self.displayLabel.text length] < 10) {
+    if ([self.displayLabel.text length] < 9) {
         self.displayLabel.text = [self.displayLabel.text stringByAppendingString:@"1"];
     }
 }
 
 - (IBAction)two:(id)sender {
-    if ([self.displayLabel.text length] < 10) {
+    if ([self.displayLabel.text length] < 9) {
         self.displayLabel.text = [self.displayLabel.text stringByAppendingString:@"2"];
     }
 }
 
 - (IBAction)three:(id)sender {
-    if ([self.displayLabel.text length] < 10) {
+    if ([self.displayLabel.text length] < 9) {
         self.displayLabel.text = [self.displayLabel.text stringByAppendingString:@"3"];
     }
 }
 
 - (IBAction)four:(id)sender {
-    if ([self.displayLabel.text length] < 10) {
+    if ([self.displayLabel.text length] < 9) {
         self.displayLabel.text = [self.displayLabel.text stringByAppendingString:@"4"];
     }
 }
 
 - (IBAction)five:(id)sender {
-    if ([self.displayLabel.text length] < 10) {
+    if ([self.displayLabel.text length] < 9) {
         self.displayLabel.text = [self.displayLabel.text stringByAppendingString:@"5"];
     }
 }
 
 - (IBAction)six:(id)sender {
-    if ([self.displayLabel.text length] < 10) {
+    if ([self.displayLabel.text length] < 9) {
         self.displayLabel.text = [self.displayLabel.text stringByAppendingString:@"6"];
     }
 }
 
 - (IBAction)seven:(id)sender {
-    if ([self.displayLabel.text length] < 10) {
+    if ([self.displayLabel.text length] < 9) {
         self.displayLabel.text = [self.displayLabel.text stringByAppendingString:@"7"];
     }
 }
 
 - (IBAction)eight:(id)sender {
-    if ([self.displayLabel.text length] < 10) {
+    if ([self.displayLabel.text length] < 9) {
         self.displayLabel.text = [self.displayLabel.text stringByAppendingString:@"8"];
     }
 }
 
 - (IBAction)nine:(id)sender {
-    if ([self.displayLabel.text length] < 10) {
+    if ([self.displayLabel.text length] < 9) {
         self.displayLabel.text = [self.displayLabel.text stringByAppendingString:@"9"];
     }
 }
