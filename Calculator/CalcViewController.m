@@ -35,63 +35,45 @@
     self.operator = nil;
 }
 
-- (IBAction)zero:(id)sender {
+- (IBAction)numberPressed:(UIButton *)btn {
     if ([self.displayLabel.text length] < 9) {
-        self.displayLabel.text = [self.displayLabel.text stringByAppendingString:@"0"];
-    }
-}
-
-- (IBAction)one:(id)sender {
-    if ([self.displayLabel.text length] < 9) {
-        self.displayLabel.text = [self.displayLabel.text stringByAppendingString:@"1"];
-    }
-}
-
-- (IBAction)two:(id)sender {
-    if ([self.displayLabel.text length] < 9) {
-        self.displayLabel.text = [self.displayLabel.text stringByAppendingString:@"2"];
-    }
-}
-
-- (IBAction)three:(id)sender {
-    if ([self.displayLabel.text length] < 9) {
-        self.displayLabel.text = [self.displayLabel.text stringByAppendingString:@"3"];
-    }
-}
-
-- (IBAction)four:(id)sender {
-    if ([self.displayLabel.text length] < 9) {
-        self.displayLabel.text = [self.displayLabel.text stringByAppendingString:@"4"];
-    }
-}
-
-- (IBAction)five:(id)sender {
-    if ([self.displayLabel.text length] < 9) {
-        self.displayLabel.text = [self.displayLabel.text stringByAppendingString:@"5"];
-    }
-}
-
-- (IBAction)six:(id)sender {
-    if ([self.displayLabel.text length] < 9) {
-        self.displayLabel.text = [self.displayLabel.text stringByAppendingString:@"6"];
-    }
-}
-
-- (IBAction)seven:(id)sender {
-    if ([self.displayLabel.text length] < 9) {
-        self.displayLabel.text = [self.displayLabel.text stringByAppendingString:@"7"];
-    }
-}
-
-- (IBAction)eight:(id)sender {
-    if ([self.displayLabel.text length] < 9) {
-        self.displayLabel.text = [self.displayLabel.text stringByAppendingString:@"8"];
-    }
-}
-
-- (IBAction)nine:(id)sender {
-    if ([self.displayLabel.text length] < 9) {
-        self.displayLabel.text = [self.displayLabel.text stringByAppendingString:@"9"];
+        NSString *theStringToAppend = [NSString new];
+        switch (btn.tag) {
+            case 0:
+                theStringToAppend = @"0";
+                break;
+            case 1:
+                theStringToAppend = @"1";
+                break;
+            case 2:
+                theStringToAppend = @"2";
+                break;
+            case 3:
+                theStringToAppend = @"3";
+                break;
+            case 4:
+                theStringToAppend = @"4";
+                break;
+            case 5:
+                theStringToAppend = @"5";
+                break;
+            case 6:
+                theStringToAppend = @"6";
+                break;
+            case 7:
+                theStringToAppend = @"7";
+                break;
+            case 8:
+                theStringToAppend = @"8";
+                break;
+            case 9:
+                theStringToAppend = @"9";
+                break;
+            default:
+                NSLog(@"Unexpected button tag found.");
+                break;
+        }
+        self.displayLabel.text = [self.displayLabel.text stringByAppendingString:theStringToAppend];
     }
 }
 
