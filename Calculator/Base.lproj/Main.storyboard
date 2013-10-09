@@ -97,6 +97,7 @@
                                 </state>
                                 <connections>
                                     <action selector="one:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RKV-qE-e6P"/>
+                                    <action selector="playClick:" destination="vXZ-lx-hvc" eventType="touchDown" id="G3u-KV-cPS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfh-c8-jeS">
@@ -107,6 +108,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="playClick:" destination="vXZ-lx-hvc" eventType="touchDown" id="DIC-sT-PRU"/>
                                     <action selector="zero:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="riU-Hn-Ywl"/>
                                 </connections>
                             </button>
@@ -119,6 +121,7 @@
                                 </state>
                                 <connections>
                                     <action selector="eight:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9C7-ac-YCI"/>
+                                    <action selector="playClick:" destination="vXZ-lx-hvc" eventType="touchDown" id="zSL-rq-gt0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yPB-uz-XU8">
@@ -130,6 +133,7 @@
                                 </state>
                                 <connections>
                                     <action selector="nine:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="FZg-1V-gHF"/>
+                                    <action selector="playClick:" destination="vXZ-lx-hvc" eventType="touchDown" id="ZcW-z6-MjR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZuI-6u-Zps">
@@ -140,6 +144,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="playClick:" destination="vXZ-lx-hvc" eventType="touchDown" id="3CN-qD-bEk"/>
                                     <action selector="subtract:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tsZ-nO-7da"/>
                                 </connections>
                             </button>
@@ -152,6 +157,7 @@
                                 </state>
                                 <connections>
                                     <action selector="add:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="J7x-BO-24V"/>
+                                    <action selector="playClick:" destination="vXZ-lx-hvc" eventType="touchDown" id="OSN-dU-hwe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7F-gr-bWL">
@@ -163,6 +169,7 @@
                                 </state>
                                 <connections>
                                     <action selector="equals:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="GFi-8M-1Up"/>
+                                    <action selector="playClick:" destination="vXZ-lx-hvc" eventType="touchDown" id="6Lw-Qb-rap"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knj-9f-BK9">
@@ -197,6 +204,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="playClick:" destination="vXZ-lx-hvc" eventType="touchDown" id="WnZ-69-uvs"/>
                                     <action selector="seven:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="01Y-Q7-Um3"/>
                                 </connections>
                             </button>
@@ -209,6 +217,7 @@
                                 </state>
                                 <connections>
                                     <action selector="clear:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tpH-i5-a9D"/>
+                                    <action selector="playClick:" destination="vXZ-lx-hvc" eventType="touchDown" id="AGf-F2-akk"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0jJ-7U-Ss5">

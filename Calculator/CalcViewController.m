@@ -7,6 +7,7 @@
 //
 
 #import "CalcViewController.h"
+#import <AudioToolbox/AudioToolbox.h>
 
 @interface CalcViewController ()
 
@@ -22,6 +23,10 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)playClick:(id)sender {
+    AudioServicesPlaySystemSound(0x450);
 }
 
 - (IBAction)clear:(id)sender {
